@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.menu{
+    display: flex;
+    gap: 16px;
+
+}
+.Recipe{
+    position:absolute;
+    top: 0%;
+    right:0%;
+    border: 2px solid black;
+    border-top: 0px;
+    width: 150px;
+    text-align: center;
+    padding: 3px;
+    /* margin-right: 40px;
+    margin-top: 4%; */
+    font-weight: bold;
+}
+.Advert{
+    margin-top: 32px;
+}
+    
+.sides{
+    position: relative;
+    border: 4px solid black;
+    height: auto;
+    padding: 4px;
+    font-size: 20;
+    padding-top: 0px;
+    margin-bottom: 16px;
+    background-color: grey;  
+    
+}
+
+.chick{
+    background-color: blanchedalmond;
+
+}
+.beef{
+    color: white;
+    background-color: red;
+}
+.sush{
+    background-color: yellow;
+}
+/***Large device only*******/
+@media  (max-width: 991px){ 
+    .menu{
+        max-width: 100%;
+        display: flex;
+        flex-direction:row; ;
+        flex-wrap: wrap;
+    }
+    .sides {
+        max-width: 100%;
+        
+    }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
